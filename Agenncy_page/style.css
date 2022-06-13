@@ -15,11 +15,15 @@ html,body{
 
 header{
     height: 50%;
+    border-bottom:8px solid hsl(0deg, 0%, 60%) ;
+
+
 }
 
 main{
-    height: max-content;
+    height: fit-content;
     background-color: hsl(0deg, 0%, 60%);
+    padding: 48px 0;
 }
 
 .max-width-wrapper{
@@ -27,15 +31,16 @@ main{
     margin: 0 auto;
 }
 
-header p{
-    max-width: 330px;
-    font-weight: 700;
-}
 
 .intro-chunk{
-    padding-top: 64px;
-    padding-left: 16px;
+    max-width: 330px;
+    /* padding-top: 64px;
+    padding-left: 16px; */
+    padding: 48px 0;
+
     /* margin-bottom: 48px; */
+    /* padding: 96px 0px; */
+
 }
 
 .intro-chunk p{
@@ -67,6 +72,8 @@ main .max-width-wrapper{
     margin-bottom: 24px;
     /* padding-top: 3px; */
     padding: 3px 24px 16px 16px ;
+    border-bottom:8px solid hsl(0deg, 0%, 60%) ;
+
 
 }
 
@@ -78,7 +85,7 @@ main .max-width-wrapper{
     margin-top: 3px;
     font-size: 1rem;
     font-weight: 900;
-    box-shadow: 0px 5px 0px hsl(45deg, 100%, 40%);
+    border-bottom:8px solid hsl(45deg, 100%, 40%) ;
 
 }
 
